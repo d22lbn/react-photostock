@@ -9,8 +9,6 @@ body {
     radial-gradient(circle at 95vw -30vh, rgba(116, 10, 55, 0.68) 10%, rgba(109, 58, 159, 0.18) 60%),
     radial-gradient(circle at 3vw 8vh, rgba(68, 103, 171, 1) 15%, rgba(9, 191, 148, 0.35) 70%),
     rgba(116, 188, 188, 0.5);
-
-    border-radius: 50%;
 }
 
 
@@ -99,3 +97,160 @@ body {
 .header__nav button span:last-child {
     margin: 0;
 }
+
+
+
+
+
+
+
+
+.device {
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+    background: rgba(255, 255, 255, 0.63);
+    box-shadow: 0 13px 60px 5px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.computer {
+    left: 62vw;
+    top: 47vh;
+    width: 40vw;
+    height: 30vw;
+    border-radius: 12px;
+}
+
+.phone {
+    left: 38vw;
+    top: 60vh;
+    width: 16vw;
+    height: 30vw;
+    border-radius: 30px;
+}
+
+.device__inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.device__items {
+    position: relative;
+    left: 3vw;
+    top: 1vw;
+}
+
+.phone__items {
+    width: 100%;
+    left: 0;
+    top: 3vw;
+}
+
+.device__item {
+    width: 5vw;
+    height: 5vw;
+    background: white;
+
+    position: absolute;
+    box-shadow: 0 9px 26px rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+}
+
+.item1 {
+    left: 3vw;
+    top: 2.5vw;
+    height: 1.5vw;
+    width: 12vw;
+}
+
+.item2 {
+    left: 4vw;
+    top: 6vw;
+    height: 9.3vw;
+    width: 9.3vw;
+}
+
+.item3 {
+    left: 15vw;
+    top: 6vw;
+    height: 9.3vw;
+    width: 9.3vw;
+}
+
+.item4 {
+    left: 26vw;
+    top: 6vw;
+    height: 20.3vw;
+    width: 9.3vw;
+}
+
+.item5 {
+    left: 4vw;
+    top: 17vw;
+    height: 9.3vw;
+    width: 20.3vw;
+}
+
+.phone__item1 {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 2vw;
+    height: 1.5vw;
+    width: 75%;
+}
+
+.phone__item2 {
+    left: 12.5%;
+    top: 2.5vw;
+    height: 9vw;
+    width: 35%;
+}
+
+.phone__item3 {
+    left: 52.5%;
+    top: 2.5vw;
+    height: 5vw;
+    width: 35%;
+}
+
+.phone__item4 {
+    left: 12.5%;
+    top: 12.5vw;
+    height: 7vw;
+    width: 35%;
+}
+
+.phone__item5 {
+    left: 52.5%;
+    top: 8.5vw;
+    height: 10vw;
+    width: 35%;
+}
+
+.phone__item6 {
+    left: 12.5%;
+    top: 20.5vw;
+    height: 7vw;
+    width: 35%;
+}
+
+.phone__item7 {
+    left: 52.5%;
+    top: 19.5vw;
+    height: 10vw;
+    width: 35%;
+}
+
+.phone__footer {
+    width: 100%;
+    height: 4vh;
+    position: absolute;
+    bottom: 0;
+    background: #FFFFFF;
+    box-shadow: 0 -10px 22px rgba(0, 0, 0, 0.12);
+    border-radius: 0 0 30px 30px;
+}
+
+
