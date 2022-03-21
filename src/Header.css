@@ -81,17 +81,23 @@ body {
     color: #fff;
     font-family: 'Istok Web', sans-serif;
     font-weight: 600;
-    padding: 16px 20px;
+    padding: 14px 20px;
     border-radius: 100px;
-    margin-bottom: -15px;
+    margin-bottom: -14px;
     align-items: center;
     line-height: 0.75;
     letter-spacing: 1px;
     cursor: pointer;
+
+    display: flex;
 }
 
 .header__nav button span {
     margin-right: 1vw;
+}
+
+.header__nav button span img {
+    width: 80%;
 }
 
 .header__nav button span:last-child {
@@ -116,9 +122,9 @@ body {
 
 .computer {
     left: 62vw;
-    top: 47vh;
+    top: 44vh;
     width: 40vw;
-    height: 30vw;
+    height: 28vw;
     border-radius: 12px;
 }
 
@@ -139,7 +145,6 @@ body {
 .device__items {
     position: relative;
     left: 3vw;
-    top: 1vw;
 }
 
 .phone__items {
@@ -253,4 +258,45 @@ body {
     border-radius: 0 0 30px 30px;
 }
 
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: calc(44vh + 14vw + 2vw);
+    left: calc(38vw + 8vw + 2vw);
+    width: calc(62vw + 20vw - (38vw + 8vw + 2vw));
+    font-size: 1.5em;
+    line-height: 180%;
+}
 
+.search {
+    position: absolute;
+    top: calc(44vh + 14vw + 2vw + 4vw);
+    left: calc(62vw + 20vw - 5vw);
+    background: rgba(80, 103, 166, 0.9);
+    border: none;
+    color: #fff;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 600;
+    padding: 14px 20px;
+    border-radius: 100px;
+    margin-bottom: -14px;
+    align-items: center;
+    line-height: 0.75;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+    display: flex;
+}
+
+.search span {
+    margin-right: 1vw;
+}
+
+.search span img {
+    width: 80%;
+}
+
+.search span:last-child {
+    margin: 0;
+}

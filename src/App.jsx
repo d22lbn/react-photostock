@@ -1,4 +1,5 @@
 import './Header.css'
+import arrow from './arrow.svg'
 
 function App() {
     return (
@@ -13,7 +14,9 @@ function App() {
                         <a href="#">Аукцион</a>
                         <button>
                             <span>Войти</span>
-                            <span>></span>
+                            <span>
+                                <img src={arrow}/>
+                            </span>
                         </button>
                     </nav>    
                 </div>
@@ -46,6 +49,13 @@ function App() {
                         </div>
                         <div className="phone__footer"></div>
                     </div>
+                </div>
+                <div className="title">Размещайте и приобретайте красивые фотографии в несколько кликов</div>
+                <div className="search">
+                    <span>Найти</span>
+                    <span>
+                        <img src={arrow}/>
+                    </span>
                 </div>
             </main>
             <footer></footer>
